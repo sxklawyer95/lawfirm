@@ -24,16 +24,7 @@
                         </a>
                     </li>
                 <% } %>
-                <% if (config.zhihu_username) { %>
-                    <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/<%= config.zhihu_username %>">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                <% } %>
+                
 
                 <% if (config.weibo_username) { %>
                     <li>
@@ -74,6 +65,16 @@
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                <% } %>
+                <% if (config.zhihu_username) { %>
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/<%= config.zhihu_username %>">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
                             </span>
                         </a>
                     </li>
@@ -155,7 +156,17 @@
 
 <!-- Google Analytics -->
 
-<% if (config.ga_track_id) { %>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133187385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133187385-1');
+</script>
+
+<!--<% if (config.ga_track_id) { %>
 <script>
     // dynamic User by Hux
     var _gaId = '<%= config.ga_track_id %>';
@@ -171,24 +182,14 @@
     ga('send', 'pageview');
 </script>
 
-<% } %>
+<% } %> -->
 
-
-<!-- Baidu Tongji -->
-<% if (config.ba_track_id) { %>
 <script>
-    // dynamic User by Hux
-    var _baId = '<%= config.ba_track_id %>';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4d1398d2e890275832d6fd932eb0e2e1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
-<% } %>
-
-
