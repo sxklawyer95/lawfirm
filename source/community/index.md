@@ -1,15 +1,8 @@
 ---
-title: "About"
-layout: "about"
-date: 2019-01-21 23:44:06
-comments: true
+title: Community
+date: 2019-01-28 01:22:45
+layout: "community"
+description:
 ---
 
-Share something completely unrelated to technology.
-
-## More
-
-If you like the theme. Look out at [here](https://github.com/sherlockblaze/hexo-theme-new_BeanTech_theme).
-And we can take more about something interesting at [Community](https://sherlockblaze.com/community/).
-
-THANKS.
+**Let's take more about something interesting you want to talk that not in my blog now.**
