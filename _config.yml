@@ -162,7 +162,7 @@ sitemap:
 deploy:
   type: git
   repository:
-    github: https://__GITHUB_TOKEN__@github.com/sxklayer95/sxklawyer95.github.io.git
+    github: https://__GITHUB_TOKEN__@github.com/sxklawyer95/sxklawyer95.github.io.git
   branch: master
 
 valine: true
