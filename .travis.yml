@@ -15,8 +15,8 @@ notifications:
     on_failure: always
 
 before_script:
-- git config --global user.name "yourname"
-- git config --global user.email "youremail"
+- git config --global user.name "sxklawyer95"
+- git config --global user.email "sxklawyer@yeah.net"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 
 script: npm run build

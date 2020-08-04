@@ -162,12 +162,12 @@ sitemap:
 deploy:
   type: git
   repository:
-    github: https://__GITHUB_TOKEN__@github.com/yours/yours.github.io.git # modify
+    github: https://__GITHUB_TOKEN__@github.com/sxklayer95/sxklayer95.github.io.git
   branch: master
 
 valine: true
-valineAppId: __VISITORS_APPID__ # your leancloud application appid
-valineAppKey: __VISITORS_APPKEY__ # your leancloud application appkey
+valineAppId: __VISITORS_APPID__
+valineAppKey: __VISITORS_APPKEY__
 valineNotify: false # mail notifier , https://github.com/xCss/Valine/wiki
 valineVerify: true # Verification code
 valinePlaceHolder: Let us talk more!! # comment box placeholder
