@@ -26,9 +26,6 @@ keyword: ""
 signature: false #show signature
 signature-img:
 
-
-# SNS settings
-# RSS: false
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
 # github_username:    sherlockblaze
@@ -38,24 +35,6 @@ signature-img:
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# Disqus settings
-#disqus_username: false
-
-# Duoshuo settings
-# duoshuo_username: kaijun
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
-
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
-ga_domain: yoursite
-
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
@@ -68,17 +47,21 @@ widgets:
 - recent-posts
 - friends-blog
 - archive
-- category
+#- category
+
+
+recommended_posts:
+  server: https://api.truelaurel.com
+  timeoutInMillis: 10000
+  internalLinks: 3
+  externalLinks: 0
+  autoDisplay: true,
+  titleHtml: <span style="font-size:1.45em; color:gray">Recommened</span>
 
 # widget behavior
 ## Archive
 archive_type: 'monthly'
 show_count: true
-
-
-## Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
 ## Friends
