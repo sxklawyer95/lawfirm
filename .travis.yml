@@ -18,12 +18,10 @@ before_script:
 - git config --global user.name "sxklawyer95"
 - git config --global user.email "sxklawyer@yeah.net"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+- sed -i "s/__VISITORS_APPID__/${__VISITORS_APPID__}/" _config.yml
+- sed -i "s/__VISITORS_APPKEY__/${__VISITORS_APPKEY__}/" _config.yml
 
 script: npm run build
 
 after_success:
 - hexo deploy
-
-#- sed -i "s/__CODING_TOKEN__/${__CODING_TOKEN__}/" _config.yml
-#- sed -i "s/__VISITORS_APPID__/${__VISITORS_APPID__}/" _config.yml
-#- sed -i "s/__VISITORS_APPKEY__/${__VISITORS_APPKEY__}/" _config.yml

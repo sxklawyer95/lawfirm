@@ -168,10 +168,10 @@ deploy:
 valine: true
 valineAppId: __VISITORS_APPID__
 valineAppKey: __VISITORS_APPKEY__
-valineNotify: false # mail notifier , https://github.com/xCss/Valine/wiki
-valineVerify: true # Verification code
-valinePlaceHolder: Let us talk more!! # comment box placeholder
-valineAvatar: wavatar # gravatar style
-valineGuestInfo: nick,mail,link # custom comment header
-valinePageSize: 10 # pagination size
+valineNotify: false
+valineVerify: true
+valinePlaceHolder: Let us talk more!!
+valineAvatar: wavatar
+valineGuestInfo: nick,mail,link
+valinePageSize: 10
 visitor: true
