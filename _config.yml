@@ -163,7 +163,6 @@ deploy:
   type: git
   repository:
     github: https://__GITHUB_TOKEN__@github.com/yours/yours.github.io.git # modify
-    coding: https://your-username:__CODING_TOKEN__@git.dev.tencent.com/yours/yours.coding.me.git #modify
   branch: master
 
 valine: true
