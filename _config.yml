@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sherlock Blaze
-subtitle: I bloom in the slaughter, like the flowers of the dawn
-author: Sherlock Blaze
+title: Sunxiangkun lawyer
+subtitle: 天与水违行，讼；君子以作事谋始
+author: 孙祥坤律师
 language:
 timezone:
 
@@ -38,8 +38,8 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description-line1: "Keep Clean, Keep Simple."
-sidebar-about-description-line2: "Email: sherlockblaze@gmail.com"
+sidebar-about-description-line1: "执业领域：公司金融、破产清算、刑事辩护、婚姻家庭"
+sidebar-about-description-line2: "邮箱：sxklawyer@yeah.net"
 sidebar-avatar: resources/img/header_img/DogFace.jpg
 widgets:
 - featured-tags
